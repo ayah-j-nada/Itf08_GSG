@@ -1,4 +1,4 @@
-def rectangular():
+def rectangular_area():
     w = int(input("Enter the width of the of the rectangular: "))
     l = int(input("Enter the length of the the rectangular : "))
 
@@ -13,10 +13,9 @@ def rectangular():
     else:
         print("invalid input")
 
-rectangular()
+rectangular_area()
 
-def triangle():
-    """Function to get triangle area and perimeter"""
+def triangle_area():
     base = int(input("Enter the base length of the triangle: "))
     height = int(input("Enter the height of the triangle: "))
 
@@ -31,10 +30,9 @@ def triangle():
     else:
         print("invalid input")
 
-triangle()
+triangle_area()
 
-def circle():
-    """Function to get circle area and perimeter"""
+def circle_area():
     r = int(input("Enter the radius of the circle: "))
     area = 3.14 * (r**2)
 
@@ -47,5 +45,5 @@ def circle():
     else:
         print("invalid input")
 
-circle()
+circle_area()
 
