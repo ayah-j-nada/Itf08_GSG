@@ -1,8 +1,8 @@
 def rectangular_area():
-    w = int(input("Enter the width of the of the rectangular: "))
-    l = int(input("Enter the length of the the rectangular : "))
+    width = int(input("Enter the width of the of the rectangular: "))
+    length = int(input("Enter the length of the the rectangular : "))
 
-    area = l * w
+    area = length * width
 
     print(f"Rectangular Area = {area}")
 
@@ -13,7 +13,9 @@ def rectangular_area():
     else:
         print("invalid input")
 
+
 rectangular_area()
+
 
 def triangle_area():
     base = int(input("Enter the base length of the triangle: "))
@@ -30,11 +32,13 @@ def triangle_area():
     else:
         print("invalid input")
 
+
 triangle_area()
+
 
 def circle_area():
     r = int(input("Enter the radius of the circle: "))
-    area = 3.14 * (r**2)
+    area = 3.14 * (r ** 2)
 
     print(f"Circle Area = {area}")
 
@@ -45,5 +49,5 @@ def circle_area():
     else:
         print("invalid input")
 
-circle_area()
 
+circle_area()
